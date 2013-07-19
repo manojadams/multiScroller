@@ -1,0 +1,10 @@
+/*--Display settings for Calender and clipboard functions--*/
+
+#FixedDiv { width: 200px;height:100%;min-height:600px;background: white;padding: 5px;margin: 5px; border-radius: 15px;position:absolute;top:0;left:0;}
+#tabs { margin-top: 10px;}
+#tabs-1 { min-height:120px;position:relative;text-align:center;margin:10px;overflow-y:scroll;}
+
+.nodata{}
+.data{cursor:move;background:yellow;}
+.incopy {overflow:hidden;}
+

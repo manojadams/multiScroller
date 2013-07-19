@@ -1,0 +1,13 @@
+http://www.dhtmlx.com/docs/products/dhtmlxScheduler/sample_units.shtml
+[18:08:36] Allie Syadiqin: http://jquery-week-calendar.googlecode.com/svn/trunk/jquery.weekcalendar/full_demo/weekcalendar_full_demo.html
+[18:14:42] Allie Syadiqin: http://jqueryui.com/demos/draggable/handle.html
+[18:25:47] manoj_adams: i will download the source codes...
+[18:25:54] manoj_adams: don't wory about that..
+[18:26:02] Allie Syadiqin: https://github.com/themouette/jquery-week-calendar/
+[18:29:02] Allie Syadiqin: 1) Move Appt
+[18:29:10] Allie Syadiqin: 2) Change Time
+[18:29:19] Allie Syadiqin: 3) Overlapping Appts
+[18:29:29] Allie Syadiqin: 4) Callbacks on #1 & #2
+[18:29:50] Allie Syadiqin: 4) Callbacks on OnComplete of event #1 & #2
+[18:30:20] Allie Syadiqin: Any movement will be in 5mins increments
+[18:30:46] Allie Syadiqin: When changing time, only the end time changes

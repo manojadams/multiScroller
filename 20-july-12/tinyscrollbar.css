@@ -1,0 +1,30 @@
+/*--------------Settings for Container------------------------*/
+.vcontent {position:absolute;top:0;left:0;}
+.hcontent {position:absolute;top:0;left:0;}
+
+/*--------------Settings for vertical scroller----------------*/
+
+#vscroller { height: 500px;display:none;overflow:hidden;}
+#vscroller .viewport { height: 200px; overflow: hidden; position: relative; }
+#vscroller .overview { list-style: none; position: absolute; left: 0; top: 0; }
+#vscroller .thumb { background-color: #003D5D; }
+#vscroller .scrollbar { position: relative;width: 15px; overflow:hidden;}
+#vscroller .track { background-color: #D8EEFD; height: 100%; width:13px; position: relative; padding: 0; }
+#vscroller .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#vscroller .thumb .end { overflow: hidden; height: 5px; width: 13px; }
+#vscroller .disable{ display: none; }
+
+/*--------------Settings for horizontal scroller----------------*/
+
+#hscroller { width: 500px;display:none;}
+#hscroller .viewport { width: 500px;  overflow: hidden; position: relative; }
+#hscroller .overview { list-style: none; position: absolute; left: 0; top: 0; }
+#hscroller .thumb { background-color: #003D5D; }
+#hscroller .scrollbar { position: relative; width:1000px; height: 15px; }
+#hscroller .track { background-color: #D8EEFD; width: 100%;height:13px; position: relative; padding: 0; }
+#hscroller .thumb { height: 25px; cursor: pointer; overflow: hidden; position: absolute;  top: -5px; left: 0; }
+#hscroller .thumb .end { overflow: hidden; height: 5px; width: 13px; }
+#hscroller .disable{ display: none; }
+
+			
+			

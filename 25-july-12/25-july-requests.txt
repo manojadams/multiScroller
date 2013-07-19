@@ -1,0 +1,24 @@
+Manoj, things are looking good. However, there are still some things that I need you to change.
+
+CSS
+Can you margin-left:5px in tinyscrollbar.css. Please refer below. 
+#vscroller { height: 500px; display:none; overflow:hidden; margin-left:5px;} 
+
+Search DivC.php for 
+class="Qtip"
+and change to 
+class="Qtip ApptDiv"
+
+Then add the following to style.css
+
+.ApptDiv {
+    -moz-border-radius: 5px; 
+    border-radius: 5px;
+}
+
+Preferably, I want the site to work in all browsers, but for testing purposes, can you test using Firefox and Chrome. You will also notice when you are scrolling and the mouse goes out of the scrollbar area, some of the page contents gets highlighted/selected. Can you do a fix, eg. event.preventDefault()? Its just irritating when you use the scrollbar and once your mouse is out of the scrollbar area, some of the page contents turns blue/white due to highlighting.
+
+If you don't understand, message me in Skype.
+
+Regards,
+Allie Syadiqin

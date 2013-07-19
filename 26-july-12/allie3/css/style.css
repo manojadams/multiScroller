@@ -1,0 +1,246 @@
+body {
+	padding:0px;
+	margin:0px;
+}
+	
+body, td, div, span, input, textarea, select, option, optgroup, button, pre {
+	font-family: Trebuchet,arial,sans-serif;
+	font-size:12px;
+}
+
+br {
+	clear:both;
+	font-size:1px;
+}
+
+table, div {
+    border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0; 
+}
+
+pre {
+	white-space: pre-wrap;       			/* css-3 */
+	white-space: -moz-pre-wrap !important; 	/* Mozilla, since 1999 */
+	white-space: -pre-wrap;      			/* Opera 4-6 */
+	white-space: -o-pre-wrap;    			/* Opera 7 */
+	word-wrap: break-word;       			/* Internet Explorer 5.5+ */
+	width: 99%;
+}
+
+/*********************************************************
+ Main Content 
+*********************************************************/
+#MainScheduleContainer {
+	width:1080px; 
+	min-height:600px; 
+	margin-right:20px; 
+	border:solid 1px #CCC; 
+	margin-top:10px;
+	float: right;
+}
+
+#Top-Spacer {
+	float:left; 
+	width:80px; 
+	height:30px; 
+	padding:0px; 
+	background-color:#89DCE1;
+}
+
+#Bottom-Spacer {
+	float:left; 
+	width:79px; 
+	height:75px; 
+	padding:0px; 
+	background-color:#CCC; 
+	border-right:1px solid #CCC;
+}	
+
+#DivA-Container {
+	float:left; 
+	width:1000px; 
+	height:30px; 
+	padding:0px; 
+	background-color:#FCEDDA; 
+	overflow:hidden;
+}
+
+#DivB-Container {
+	float:left; 
+	width:80px; 
+	height:500px; 
+	padding:0px; 
+	background-color:#ECF5E7; 
+	overflow:hidden;
+}
+
+#DivC-Container {
+	float:left; 
+	width:1000px; 
+	height:500px; 
+	padding:0px; 
+	background-color:#FFF4F4; 
+	overflow:hidden;
+}
+
+#DivD-Container {
+	float:left; 
+	width:1000px; 
+	height:75px; 
+	padding:0px; 
+	background-color:#FCEDDA; 
+	overflow:hidden;
+}	
+
+/*********************************************************
+ Borders 
+*********************************************************/
+table.DebugBorder {
+	border-top:1px dashed #900 !important;
+	border-left:1px dashed #900 !important;
+}
+
+table.DebugBorder td {
+	border-right:1px dashed #900 !important;
+	border-bottom:1px dashed #900 !important;
+}
+
+.DebugBorders {
+	border:1px dashed #900 !important;
+}
+
+/*********************************************************
+ Provider DIVs 
+*********************************************************/
+#ProviderContainer {
+	vertical-align:top;
+	white-space:nowrap;
+	width:2010px;
+}
+
+.ProviderBG {
+	float:left; 
+	width:250px;
+	height:30px;
+	padding:0px;
+	border-right:1px solid #C8D7FB;		
+	background-color:#2FB5BE;
+	text-align:center;
+	line-height:2.5em;
+	font-weight:bold;
+	color:#FFF;
+}
+
+/*********************************************************
+ Appointment DIVs 
+*********************************************************/
+#AppointmentContainer {
+	vertical-align:top;
+	white-space:nowrap;
+	width:2010px;
+}
+
+.DivBG {
+	float:left; 
+	width:250px;
+	height:25px;
+	padding:0px;
+	border-right:1px solid #C8D7FB;		
+}
+
+.FirstDiv {
+	border-left:1px solid #C8D7FB;
+}
+
+.LastDiv {
+	border-bottom:1px solid #C8D7FB;
+}
+
+.OddBG {
+	background-color:#EFFAFB;
+
+}
+
+.EvenBG {
+	background-color:#FCFCFC;
+}
+
+
+/*********************************************************
+ Time DIVs 
+*********************************************************/
+#TimeContainer {
+	vertical-align:top;
+	white-space:nowrap;
+}
+
+.TimeDIV {
+	width:80px;
+	height:49px;
+	text-align:center;
+	line-height:4em;
+	border-right:1px solid #C8D7FB;
+	border-bottom:1px solid #C8D7FB;
+	background-color:#2FB5BE;
+	color:#FFF;	
+}
+
+/*********************************************************
+ Statistics DIVs 
+*********************************************************/
+#StatisticContainer {
+	vertical-align:top;
+	white-space:nowrap;
+	width:2010px;
+}
+
+.DivDTitles {
+	height:25px;
+	background-color:#2FB5BE;
+	line-height:2.5em;
+	padding-left:5px;
+	color:#ECF5E7;
+	font-weight:bold;
+	font-size:11px;
+}
+
+.DivDTitles-Middle {
+	height:25px;
+	background-color:#89DCE1;
+	line-height:2.5em;
+	padding-left:5px;
+	color:#258C93;
+	font-weight:bold;
+	font-size:11px;
+}
+
+.StatisticBG {
+	float:left;
+	height:75px;
+	width:250px;
+	padding:0px;
+	border-right:1px solid #C8D7FB;
+}
+
+.StatisticRow {
+	height:25px;
+	background-color:#2FB5BE;
+	color:#FFF;
+	text-align:center;
+	font-weight:bold;
+	line-height:2.0em;	
+}
+
+.StatisticRow-Middle {
+	height:25px;
+	background-color:#89DCE1;
+	color:#258C93;
+	text-align:center;
+	font-weight:bold;
+	line-height:2.0em;
+}
+.ApptDiv {
+    -moz-border-radius: 5px; 
+    border-radius: 5px;
+}
+		

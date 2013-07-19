@@ -1,0 +1,6 @@
+dragdroper plan
+
+Two set of properties:
+	a)	drag and drop properties---for all elements
+	
+	b)	resize, overlap, movable---for single elements( assign the specific data-id for this purpose)

@@ -1,0 +1,8 @@
+1) Drag and drop (within same date/day)
+2) Change appt time (with realtime time change)
+3) Overlapping appts (Max 2 in row)
+4) Clipboard function to drag back into schedule container
+5) Callbacks on complete of events for #1,#2 and #4
+
+
+FYI, I have only added a draggable function as demo to show you how I want the draggables to work, ie. draggable options, ie. snap, grid, etc...

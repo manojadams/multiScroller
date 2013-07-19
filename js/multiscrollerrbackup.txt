@@ -1,0 +1,96 @@
+ads/* jQuery multiScroller v1.0
+ * Copyright 2012, Manoj Baruah
+ * Licensed under the GPL Version 2 licenses.
+ * http://www.gnu.org/licenses/
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * at your option) any later version. 
+ * For commercial purposes please contact manoj.adams@gmail.com for details
+ * For a working demo of this plugin please visit http://www.ebizassam.com/projects/allie
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *   
+ * Date: Mon Jul 16 16:51:03 2012
+ */
+ 
+ /*classes and ids used:
+  * .vcontent, .hcontent,#vscrollbar,#hscrollbar,#vthumb,#hthumb
+  *Notes:
+  * need to assign height when first called vcontent
+  */
+ 
+ (function m(){
+ 
+ m.multi=m.multi||{};
+ m.multi.scroller={options:{axis:"y",scroll:false,height:0}};
+ 
+
+  
+ m.fn.multiscroller=function(a){
+ 
+ var e = m(this).extend({},m.multi.scrollbar.options,a);
+ if(e.axis=="y") {
+		if(m(this).data("vs")) {//checking if vmultiscroller initialized
+			var l=$('.vcontent').length;
+			var ct=m(this).html();
+			ele.html('<div class="vcontent">'+ct+'</div>');
+			if(!l){// if vcontent do not exist then assign height to it
+					$('.vcontent').css({height:e.height});
+				}
+			if(e.scroll&&window.addEventListener)	{//apply scrollit if not already assigned
+				m(this).addEventListener("DOMMouseScroll",x,false)||m(this).addEventListener("mousewheel",x,false);
+				scrollit();
+			}
+			if(!m(this).data("bind")) bindData();
+		
+		else {alert('vscroller not initialized');return;}
+	}
+}
+if(e.axis=="x") {//checking if hmultiscroller initialized
+	
+	}
+	
+function bindData(a){
+	if (a.data('bind')==false) alert('false');
+	else alert('tru');
+	
+}
+ 
+ }
+  m.fn.vmultiScroller=function(){//for initializing vscroller
+	
+	
+		m(this).html('<div id="vscrollbar"><div id="vthumb"></div></div>');
+		m(this).data("vs",1);//saving settings for vmultiscroller
+	
+ }
+ m.fn.hmultiScroller=function(){//for initializing vscroller
+	
+		m(this).html('<div id="hscrollbar"><div id="hthumb"></div></div>');
+		m(this).data("hs",1);//saving settings for hmultiscroller
+	
+ }
+ }
+ (jQuery));
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

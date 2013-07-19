@@ -1,0 +1,24 @@
+ draggable and expandable
+
+<div id="ApptDiv">Something here</div>
+
+ I initialize the plugin Plugin(DivID);
+
+plugin must have custom callbacks
+
+one is onClick, both right and left click
+
+[07:07:49] Allie Syadiqin: the other is onComplete, whether after you drag and drop or when you expand or contract
+
+[07:08:07] Allie Syadiqin: These 2 callbacks must be customizable
+
+so i can set it to whatever colors I want for each object or elements
+
+plugin size?
+
+
+A = TopScrollableDiv
+B = LeftScrollableDiv
+C = RightScrollableDiv
+D = BottomScrollableDiv
+ other requirement is moving appt on different dates

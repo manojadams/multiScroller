@@ -1,0 +1,131 @@
+[06:47:10] allie.syadiqin: Hi I’d like to add you on Skype to discuss about Elance project.  Allie Syadiqin
+[06:47:10] manoj_adams: manoj_adams has shared contact details with Allie Syadiqin.
+[06:47:26] manoj_adams: Hi Allie
+[06:48:10] Allie Syadiqin: Hello Manoj
+[06:48:39] manoj_adams: How is your jquery plugin progress going on?
+[06:49:11] Allie Syadiqin: I am calling all providers so that I can shortlist and select one
+[06:49:22] Allie Syadiqin: Do you have a mic?
+[06:50:02] manoj_adams: My internet connection is not very fast...
+[06:50:04] Allie Syadiqin: And do you have about 10-20 mins
+[06:50:11] manoj_adams: so might be slow..
+[06:50:20] manoj_adams: yes I have time..
+[06:50:32] Allie Syadiqin: no video, just voice as I need to call you to share screen
+[06:51:20] manoj_adams: ok...
+[06:51:25] manoj_adams: just wait a minute...
+[06:51:26] Allie Syadiqin: I want to make sure that you understand what are my requirements so that you can quote accordingly
+[06:51:30] manoj_adams: let me arrange m ymic..
+[06:51:38] Allie Syadiqin: OK
+[06:51:38] manoj_adams: my mic..
+[06:52:24] Allie Syadiqin: Tell me when you are ready and we can start
+[06:56:40] manoj_adams: Hi Allie I am ready...
+[06:56:46] manoj_adams: Shall I call..
+[06:57:06] Allie Syadiqin: i'll call you
+[06:57:09] Allie Syadiqin: give me 2 mins
+[06:57:14] manoj_adams: alright..
+[06:58:18] *** Call from Allie Syadiqin ***
+[06:58:44] Allie Syadiqin: can you hear me
+[06:58:53] manoj_adams: i can ..
+[06:59:14] manoj_adams: ok...
+[06:59:29] manoj_adams: ok..
+[07:01:19] Allie Syadiqin: Plugin to be draggable and expandable
+[07:01:23] manoj_adams: alright..
+[07:01:42] *** Call ended, duration 03:24 ***
+[07:01:52] Allie Syadiqin: Lets type so that we can both have logs
+[07:01:56] manoj_adams: sure...
+[07:02:14] Allie Syadiqin: The plugin must be using JQuery
+[07:02:21] Allie Syadiqin: the latest version of JQuery
+[07:02:29] manoj_adams: 1.7.2
+[07:02:36] manoj_adams: the latest version
+[07:02:40] Allie Syadiqin: OK
+[07:03:01] Allie Syadiqin: the plugin must work on any existing DIV and unobstrusive
+[07:03:21] Allie Syadiqin: DO you understand what unobstrusive means?
+[07:03:46] manoj_adams: not sure..
+[07:04:17] Allie Syadiqin: means it can work on any DIV elements without having to edit that element or HTML
+[07:04:27] manoj_adams: kk..
+[07:04:29] Allie Syadiqin: not hardcoded into the template file
+[07:04:31] manoj_adams: that is very much possible..
+[07:04:40] Allie Syadiqin: all i need to do is initialize the plugin
+[07:04:50] manoj_adams: can select div on click....
+[07:04:51] manoj_adams: right?
+[07:04:57] Allie Syadiqin: no
+[07:04:58] manoj_adams: based on some events..
+[07:05:18] Allie Syadiqin: lets say I have a div element
+[07:05:22] manoj_adams: ok..
+[07:05:37] Allie Syadiqin: <div id="ApptDiv">Something here</div>
+[07:05:52] manoj_adams: ok..
+[07:06:06] Allie Syadiqin: then I initialize the plugin
+Plugin(DivID);
+[07:06:13] manoj_adams: understood..
+[07:06:25] Allie Syadiqin: Do you have any experience with JQuery?
+[07:06:26] manoj_adams: thats is what jquery is all about..
+[07:06:30] manoj_adams: yes...
+[07:06:42] manoj_adams: I am good with javascript/jquery..
+[07:06:53] Allie Syadiqin: The plugin must have custom callbacks
+[07:07:06] manoj_adams: ok..
+[07:07:12] Allie Syadiqin: one is onClick, both right and left click
+[07:07:40] manoj_adams: ya ...i can bind events using jquery to achieve that..
+[07:07:49] Allie Syadiqin: the other is onComplete, whether after you drag and drop or when you expand or contract
+[07:08:07] Allie Syadiqin: These 2 callbacks must be customizable
+[07:08:23] manoj_adams: ok...
+[07:08:25] Allie Syadiqin: that means, I can trigger my own functions on these callbacks
+[07:08:42] manoj_adams: got it..
+[07:09:23] Allie Syadiqin: other customizations include the element colors which I can define
+[07:09:34] manoj_adams: ok...
+[07:09:57] Allie Syadiqin: so i can set it to whatever colors I want for each object or elements
+[07:10:00] manoj_adams: i don't think the plugin size will be much with your requirements...
+[07:10:16] Allie Syadiqin: plugin size?
+[07:10:26] Allie Syadiqin: filesize?
+[07:10:31] manoj_adams: yes.
+[07:10:45] Allie Syadiqin: are you saying big or small filesize?
+[07:11:21] manoj_adams: i am saying it can be done in small with the requirements I am seeing here..
+[07:11:27] Allie Syadiqin: OK. Good
+[07:12:23] Allie Syadiqin: The plugin must be able to be configurable ...
+[07:12:39] manoj_adams: ok...
+[07:12:49] Allie Syadiqin: eg. minutes to change when expanding/contracting
+[07:13:27] Allie Syadiqin: number of appts to lay side -by side, eg. 1,2,3 or 4
+[07:13:42] manoj_adams: appts?
+[07:13:54] manoj_adams: applets ?
+[07:13:56] Allie Syadiqin: each object is an appointment
+[07:14:02] manoj_adams: ok...
+[07:14:35] manoj_adams: this can also be done using javascript...
+[07:14:39] Allie Syadiqin: the plugin must read data from the attributes within the original DIV element
+[07:15:14] Allie Syadiqin: eg. my PHP script will built the DIVs and insert data from a MySQL database
+[07:15:23] Allie Syadiqin: the appointment start and end time
+[07:15:40] Allie Syadiqin: the text to display for each appointment
+[07:16:09] manoj_adams: noting down all your requirements..
+[07:16:13] Allie Syadiqin: plus any other details that is required to make changes to the appointment records in the database
+[07:16:28] Allie Syadiqin: eg. ApptID, ClientID, ProviderID, etc...
+[07:16:48] Allie Syadiqin: Do you understand?
+[07:17:25] manoj_adams: ok...
+[07:17:42] manoj_adams: you must provide unique ids to divs though..
+[07:17:46] Allie Syadiqin: Yes
+[07:17:57] manoj_adams: ok...
+[07:18:22] Allie Syadiqin: The other requirement is moving appt on different dates
+[07:18:36] manoj_adams: ok..
+[07:19:20] Allie Syadiqin: For that, I would need the plugin to be able to drag and drop to an external element that works like a clipboard
+[07:19:39] manoj_adams: ok...
+[07:19:42] manoj_adams: that is possible..
+[07:19:49] Allie Syadiqin: Hold on while I try to find an example
+[07:19:57] manoj_adams: alright..
+[07:21:32] Allie Syadiqin: Let me show you my screen again
+[07:21:40] *** Call from Allie Syadiqin ***
+[07:31:28] *** Allie Syadiqin sent Scheduling.jpg ***
+[07:36:19] Allie Syadiqin: If I move the vertical scrollbar
+[07:36:35] Allie Syadiqin: Only B and C move
+[07:36:55] Allie Syadiqin: If I move the horizontal bar
+[07:37:04] Allie Syadiqin: Only A, C and D
+[07:43:57] Allie Syadiqin: The project consist of 2 major requirements
+[07:44:29] Allie Syadiqin: 1) The Jquery plugin which will have the drag and drop, expand and contract, and clipboard functions
+[07:44:50] Allie Syadiqin: 2) The scrollbar functions
+[07:54:34] manoj_adams: $90
+[07:54:38] manoj_adams: is it ok?
+[07:54:59] Allie Syadiqin: $300
+[07:55:32] Allie Syadiqin: AUD$300
+[08:13:29] manoj_adams: [08:13] manoj_adams: 
+
+<<< manoj.adams@gmail.com
+[08:13:56] Allie Syadiqin: allie@ezxcess.com
+[08:16:25] manoj_adams: Thank you again ...
+[08:16:29] manoj_adams: bye..
+[08:16:31] manoj_adams: for right now..
+[08:16:36] Allie Syadiqin: bye
